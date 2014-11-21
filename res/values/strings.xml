@@ -2,7 +2,11 @@
 <resources>
 
     <string name="app_name">LocationBasedTourGuide</string>
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_create_tour">CreateTourActivity</string>
+    <string name="tour_title">Tour Title</string>
+    <string name="create_tour">Create Tour</string>
+    <string name="title_activity_add_stop">AddStopActivity</string>
+    <string name="hello_world">Hello world!</string>
 
 </resources>
