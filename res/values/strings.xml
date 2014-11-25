@@ -8,5 +8,7 @@
     <string name="create_tour">Create Tour</string>
     <string name="title_activity_add_stop">AddStopActivity</string>
     <string name="hello_world">Hello world!</string>
+    <string name="map">Map</string>
+    <string name="title_activity_map">MapActivity</string>
 
 </resources>
