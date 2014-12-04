@@ -43,7 +43,7 @@
             android:label="@string/title_activity_create_tour" >
         </activity>
         <activity
-            android:name=".AddOrEditStopActivity"
+            android:name=".AddStopActivity"
             android:label="@string/title_activity_add_stop" >
         </activity>
         <activity

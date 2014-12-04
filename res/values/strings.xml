@@ -11,6 +11,7 @@
     <string name="title_activity_add_tour">AddTourActivity</string>
     <string name="title_activity_edit_tour">EditTourActivity</string>
     <string name="title_activity_edit_stop">EditStopActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
 
     <!-- activityCreateTour string's -->
     <string name="tour_title">Tour Title</string>
