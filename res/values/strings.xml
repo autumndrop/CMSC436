@@ -4,12 +4,35 @@
     <string name="app_name">LocationBasedTourGuide</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_create_tour">CreateTourActivity</string>
-    <string name="tour_title">Tour Title</string>
-    <string name="create_tour">Create Tour</string>
     <string name="title_activity_add_stop">AddStopActivity</string>
     <string name="hello_world">Hello world!</string>
     <string name="map">Map</string>
     <string name="title_activity_map">MapActivity</string>
-    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_add_tour">AddTourActivity</string>
+    <string name="title_activity_edit_tour">EditTourActivity</string>
+    <string name="title_activity_edit_stop">EditStopActivity</string>
 
+    <!-- activityCreateTour string's -->
+    <string name="tour_title">Tour Title</string>
+    <string name="add_first_stop">Add First Stop</string>
+    <string name="create_tour">Create A New Tour</string>
+
+    <!-- addStopActivity string's -->
+    <string name="stop_name_label">Stop Name: </string>
+    <string name="stop_name_hint">Name This Stop</string>
+    <string name="description_label">Description: </string>
+    <string name="description_hint">Describe This Stop</string>
+    <string name="address_label">Address: </string>
+    <string name="address_hint">1239 Johnson Ave., College Park, MD 20715</string>
+    <string name="video_uri_label">Video URI: </string>
+    <string name="video_uri_hint">https://www.youtube.com/watch?v=</string>
+    <string name="add_photos_label">Add Photos: </string>
+    <string name="content_description">Add a photo</string>
+    <string name="add_tour_stops">Add Tour Stops</string>
+    <string name="tour_title_label">Tour Title: </string>
+    <string name="create_stop">Create Stop</string>
+    <string name="title_activity_current_tour">CurrentTourActivity</string>
+
+    <!-- currentTourActivity string's -->
+    <string name="add_stop">Create A New Stop</string>
 </resources>

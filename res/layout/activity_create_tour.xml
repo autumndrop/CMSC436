@@ -3,23 +3,40 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.locationbasedtourguide.CreateTourActivity" >
-    
-    <EditText 
-        android:id="@+id/tourTitle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/tour_title"/>
-    
-    <ListView 
-        android:id="@android:id/list"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"/>
-    
-    <Button
-        android:id="@+id/createTour"
+    tools:context="com.example.locationbasedtourguide.CreateTourActivity">
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/create_tour"/>
-    
+        android:text="@string/create_tour"
+        android:layout_gravity="center"
+        android:textSize="40sp"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context="com.example.locationbasedtourguide.CreateTourActivity">
+
+        <EditText
+            android:id="@+id/tour_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:gravity="center"
+            android:hint="@string/tour_title" />
+
+        <Button
+            android:id="@+id/add_first_stop_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="@string/add_tour_stops" />
+
+
+    </LinearLayout>
 </LinearLayout>
